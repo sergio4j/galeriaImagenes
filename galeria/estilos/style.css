@@ -1,0 +1,27 @@
+
+.formularioImagen{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    text-align: center;
+}
+.imagenesGaleria{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.imagenesGaleria .card{
+    width: 400px !important;
+}
+
+.imagenesGaleria .card img{
+    height: 250px;
+}
+.boton{
+    margin-top: 25px;
+}
+
+.formularioModificar img{
+    width: 70%;
+    margin: 0 auto;
+}
+.formularioImagen{
+    text-align: center;
+}
