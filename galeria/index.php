@@ -9,7 +9,12 @@
     <form class="p-3 " action="guardar.php" method="POST" enctype="multipart/form-data">
         <input type="text" required name="nombre" id="nombre" placeholder="Nombre..." value=""/>
         <input type="file" required name="imagen" />
-        <input class="btn btn-success " type="submit" value="Aceptar">
+      <br>
+          <label>
+          <input type="checkbox" required> Acepto que la imagen no contiene derechos de autor
+        </label>
+        <br>
+        <input class="btn btn-success mt-3" type="submit" value="Aceptar">
     </form>
   </div>
 
